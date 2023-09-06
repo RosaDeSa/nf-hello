@@ -18,3 +18,11 @@ process hello {
     echo "Hello $text" > hello_${text}.txt
     """
 }
+
+/*profiles{
+    lifesciences{
+        process.executor = "google-lifesciences"
+        google.project = "gcacchiarelli"
+        google.zone = "europe-west1-b"
+    }
+}*/
