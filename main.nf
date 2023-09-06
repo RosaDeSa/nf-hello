@@ -3,7 +3,7 @@ texts = Channel.from("AWS", "Nextflow")
 
 process hello {
     machineType 'e2-standard-2'
-    container 'docker://staphb/fastqc'
+    container 'staphb/fastqc'
     
     publishDir "results" , mode: 'copy'
 
