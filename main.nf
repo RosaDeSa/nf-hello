@@ -1,5 +1,5 @@
 //nextflow.enable.dsl=2
-texts = Channel.from("AWS", "Nextflow")
+texts = Channel.fromPath("AWS", "Nextflow")
 
 process hello {
     container "debian:10.2"
