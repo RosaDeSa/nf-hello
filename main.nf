@@ -9,7 +9,7 @@ process hello {
     publishDir "results" , mode: 'copy'
 
     input:
-    val text from texts
+    val(text)
 
     output:
     file 'hello_*.txt'
