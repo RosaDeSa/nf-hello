@@ -1,3 +1,4 @@
+nextflow.enable.dsl=2
 texts = Channel.from("AWS", "Nextflow")
 
 process hello {
