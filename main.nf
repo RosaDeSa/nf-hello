@@ -3,8 +3,7 @@ texts = Channel.from("AWS", "Nextflow")
 
 process hello {
     container "debian:10.2"
-    cpus 1
-    memory '512 MB'
+    machineType 'e2-standard-2'
 
     publishDir "results" , mode: 'copy'
 
