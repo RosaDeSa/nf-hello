@@ -2,7 +2,6 @@
 texts = Channel.from("AWS", "Nextflow")
 
 process hello {
-    container "debian:10.2"
     machineType 'e2-standard-2'
 
     publishDir "results" , mode: 'copy'
