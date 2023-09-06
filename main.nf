@@ -21,7 +21,7 @@ process hello {
 }
 
 workflow{
-    hello()
+    hello(texts)
 }
 
 /*profiles{
