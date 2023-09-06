@@ -20,6 +20,10 @@ process hello {
     """
 }
 
+workflow{
+    hello()
+}
+
 /*profiles{
     lifesciences{
         process.executor = "google-lifesciences"
